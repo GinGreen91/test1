@@ -1,8 +1,42 @@
 .hero {
-  background-color: blue;
+  display: flex;
+}
+.hero-two {
+  background-color: rgba(40, 167, 69, 1);
+}
+.hero-question {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #ffffff;
+}
+.hero-title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #ffffff;
+}
+.hero-input {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #ffffff;
+}
+.hero-button {
+  width: 167px;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 }
 
-.swiper {
+.hero-question .swiper {
   width: 600px;
   height: 300px;
 }
