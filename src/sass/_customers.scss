@@ -1,1 +1,23 @@
-.customers {background-color: tomato;}
+.customers {
+
+}
+.customers img{
+    display: block;
+
+}
+.customers-container {
+    max-width: 1360px;   
+    display: flex;
+}
+.customers-form {
+    padding: 0 38px;
+}
+.customers-form-text {
+}
+.customers-form-input {
+    display: block;
+    width: 100%;
+}
+.customers-form-button {
+    width: 100%;
+}
